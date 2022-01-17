@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/app.ts",
-    "build": "tsc && webpack app/app.js -o app/app.bundle.js --mode=production"
+    "build": "tsc && webpack app/app.js -o app/app.bundle.js --mode=production",
+    "start": "nodemon src/app.ts"
   },
   "author": "",
   "license": "ISC",
