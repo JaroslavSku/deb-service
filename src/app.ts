@@ -30,4 +30,4 @@ app.use(
   })
 );
 
-app.listen(80);
+app.listen(process.env.PORT || 80);
